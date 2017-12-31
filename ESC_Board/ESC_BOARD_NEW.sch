@@ -13481,6 +13481,13 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="220.98" y1="378.46" x2="205.74" y2="378.46" width="0.1524" layer="91"/>
 <label x="208.28" y="378.46" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="SDA"/>
+<wire x1="15.24" y1="406.4" x2="-5.08" y2="406.4" width="0.1524" layer="91"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="-12.7" y1="401.32" x2="-5.08" y2="401.32" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="401.32" x2="-5.08" y2="406.4" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
@@ -13497,6 +13504,13 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="R38" gate="G$1" pin="2"/>
 <wire x1="274.32" y1="378.46" x2="292.1" y2="378.46" width="0.1524" layer="91"/>
 <label x="281.94" y="378.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="SCL"/>
+<wire x1="15.24" y1="403.86" x2="-2.54" y2="403.86" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<wire x1="-22.86" y1="398.78" x2="-2.54" y2="398.78" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="398.78" x2="-2.54" y2="403.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PD3" class="0">
@@ -14024,24 +14038,6 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="C43" gate="G$1" pin="1"/>
 <wire x1="-142.24" y1="332.74" x2="-134.62" y2="332.74" width="0.1524" layer="91"/>
 <junction x="-142.24" y="332.74"/>
-</segment>
-</net>
-<net name="SCL1" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="SCL"/>
-<wire x1="15.24" y1="403.86" x2="-2.54" y2="403.86" width="0.1524" layer="91"/>
-<pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="-22.86" y1="398.78" x2="-2.54" y2="398.78" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="398.78" x2="-2.54" y2="403.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="SDA1" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="SDA"/>
-<wire x1="15.24" y1="406.4" x2="-5.08" y2="406.4" width="0.1524" layer="91"/>
-<pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="-12.7" y1="401.32" x2="-5.08" y2="401.32" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="401.32" x2="-5.08" y2="406.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$59" class="0">
