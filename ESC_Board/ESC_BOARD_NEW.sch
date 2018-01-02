@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.3">
+<eagle version="8.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11293,61 +11293,111 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </library>
 <library name="MotherboardParts">
 <packages>
-<package name="POWER-BRICK-CONNECTOR">
-<pad name="P$1" x="-1.27" y="-34.29" drill="1"/>
-<pad name="P$2" x="1.27" y="-34.29" drill="1"/>
-<pad name="P$3" x="-1.27" y="-31.75" drill="1"/>
-<pad name="P$4" x="1.27" y="-31.75" drill="1"/>
-<pad name="P$5" x="-1.27" y="-29.21" drill="1"/>
-<pad name="P$6" x="1.27" y="-29.21" drill="1"/>
-<pad name="P$7" x="-1.27" y="-26.67" drill="1"/>
-<pad name="P$8" x="1.27" y="-26.67" drill="1"/>
-<pad name="P$9" x="-1.27" y="-24.13" drill="1"/>
-<pad name="P$10" x="1.27" y="-24.13" drill="1"/>
-<pad name="P$11" x="-1.27" y="-21.59" drill="1"/>
-<pad name="P$12" x="1.27" y="-21.59" drill="1"/>
-<pad name="P$13" x="-1.27" y="-19.05" drill="1"/>
-<pad name="P$14" x="1.27" y="-19.05" drill="1"/>
-<pad name="P$15" x="-1.27" y="-16.51" drill="1"/>
-<pad name="P$16" x="1.27" y="-16.51" drill="1"/>
-<pad name="P$17" x="-1.27" y="-13.97" drill="1"/>
-<pad name="P$18" x="1.27" y="-13.97" drill="1"/>
-<pad name="P$19" x="-1.27" y="-11.43" drill="1"/>
-<pad name="P$20" x="1.27" y="-11.43" drill="1"/>
-<pad name="P$21" x="-1.27" y="-8.89" drill="1"/>
-<pad name="P$22" x="1.27" y="-8.89" drill="1"/>
-<pad name="P$23" x="-1.27" y="-6.35" drill="1"/>
-<pad name="P$24" x="1.27" y="-6.35" drill="1"/>
-<pad name="P$25" x="-1.27" y="-3.81" drill="1"/>
-<pad name="P$26" x="1.27" y="-3.81" drill="1"/>
-<pad name="P$27" x="-1.27" y="-1.27" drill="1"/>
-<pad name="P$28" x="1.27" y="-1.27" drill="1"/>
-<pad name="P$29" x="-1.27" y="1.27" drill="1"/>
-<pad name="P$30" x="1.27" y="1.27" drill="1"/>
-<pad name="P$31" x="-1.27" y="3.81" drill="1"/>
-<pad name="P$32" x="1.27" y="3.81" drill="1"/>
-<pad name="P$33" x="-1.27" y="6.35" drill="1"/>
-<pad name="P$34" x="1.27" y="6.35" drill="1"/>
-<pad name="P$35" x="-1.27" y="8.89" drill="1"/>
-<pad name="P$36" x="1.27" y="8.89" drill="1"/>
-<pad name="P$37" x="-1.27" y="11.43" drill="1"/>
-<pad name="P$38" x="1.27" y="11.43" drill="1"/>
-<pad name="P$39" x="-1.27" y="13.97" drill="1"/>
-<pad name="P$40" x="1.27" y="13.97" drill="1"/>
-<pad name="P$41" x="-1.27" y="16.51" drill="1"/>
-<pad name="P$42" x="1.27" y="16.51" drill="1"/>
-<pad name="P$43" x="-1.27" y="19.05" drill="1"/>
-<pad name="P$44" x="1.27" y="19.05" drill="1"/>
-<pad name="P$45" x="-1.27" y="21.59" drill="1"/>
-<pad name="P$46" x="1.27" y="21.59" drill="1"/>
-<pad name="P$47" x="-1.27" y="24.13" drill="1"/>
-<pad name="P$48" x="1.27" y="24.13" drill="1"/>
-<pad name="P$49" x="-1.27" y="26.67" drill="1"/>
-<pad name="P$50" x="1.27" y="26.67" drill="1"/>
+<package name="ESC-CONNECTOR">
+<pad name="P$1" x="-1.27" y="-30.48" drill="1"/>
+<pad name="P$2" x="1.27" y="-30.48" drill="1"/>
+<pad name="P$3" x="-1.27" y="-27.94" drill="1"/>
+<pad name="P$4" x="1.27" y="-27.94" drill="1"/>
+<pad name="P$5" x="-1.27" y="-25.4" drill="1"/>
+<pad name="P$6" x="1.27" y="-25.4" drill="1"/>
+<pad name="P$7" x="-1.27" y="-22.86" drill="1"/>
+<pad name="P$8" x="1.27" y="-22.86" drill="1"/>
+<pad name="P$9" x="-1.27" y="-20.32" drill="1"/>
+<pad name="P$10" x="1.27" y="-20.32" drill="1"/>
+<pad name="P$11" x="-1.27" y="-17.78" drill="1"/>
+<pad name="P$12" x="1.27" y="-17.78" drill="1"/>
+<pad name="P$13" x="-1.27" y="-15.24" drill="1"/>
+<pad name="P$14" x="1.27" y="-15.24" drill="1"/>
+<pad name="P$15" x="-1.27" y="-12.7" drill="1"/>
+<pad name="P$16" x="1.27" y="-12.7" drill="1"/>
+<pad name="P$17" x="-1.27" y="-10.16" drill="1"/>
+<pad name="P$18" x="1.27" y="-10.16" drill="1"/>
+<pad name="P$19" x="-1.27" y="-7.62" drill="1"/>
+<pad name="P$20" x="1.27" y="-7.62" drill="1"/>
+<pad name="P$21" x="-1.27" y="-5.08" drill="1"/>
+<pad name="P$22" x="1.27" y="-5.08" drill="1"/>
+<pad name="P$23" x="-1.27" y="-2.54" drill="1"/>
+<pad name="P$24" x="1.27" y="-2.54" drill="1"/>
+<pad name="P$25" x="-1.27" y="0" drill="1"/>
+<pad name="P$26" x="1.27" y="0" drill="1"/>
+<pad name="P$27" x="-1.27" y="2.54" drill="1"/>
+<pad name="P$28" x="1.27" y="2.54" drill="1"/>
+<pad name="P$29" x="-1.27" y="5.08" drill="1"/>
+<pad name="P$30" x="1.27" y="5.08" drill="1"/>
+<pad name="P$31" x="-1.27" y="7.62" drill="1"/>
+<pad name="P$32" x="1.27" y="7.62" drill="1"/>
+<pad name="P$33" x="-1.27" y="10.16" drill="1"/>
+<pad name="P$34" x="1.27" y="10.16" drill="1"/>
+<pad name="P$35" x="-1.27" y="12.7" drill="1"/>
+<pad name="P$36" x="1.27" y="12.7" drill="1"/>
+<pad name="P$37" x="-1.27" y="15.24" drill="1"/>
+<pad name="P$38" x="1.27" y="15.24" drill="1"/>
+<pad name="P$39" x="-1.27" y="17.78" drill="1"/>
+<pad name="P$40" x="1.27" y="17.78" drill="1"/>
+<pad name="P$41" x="-1.27" y="20.32" drill="1"/>
+<pad name="P$42" x="1.27" y="20.32" drill="1"/>
+<pad name="P$43" x="-1.27" y="22.86" drill="1"/>
+<pad name="P$44" x="1.27" y="22.86" drill="1"/>
+<pad name="P$45" x="-1.27" y="25.4" drill="1"/>
+<pad name="P$46" x="1.27" y="25.4" drill="1"/>
+<pad name="P$47" x="-1.27" y="27.94" drill="1"/>
+<pad name="P$48" x="1.27" y="27.94" drill="1"/>
+<pad name="P$49" x="-1.27" y="30.48" drill="1"/>
+<pad name="P$50" x="1.27" y="30.48" drill="1"/>
+<pad name="P$51" x="-138.684" y="-38.608" drill="1"/>
+<pad name="P$52" x="-136.144" y="-38.608" drill="1"/>
+<pad name="P$53" x="-138.684" y="-36.068" drill="1"/>
+<pad name="P$54" x="-136.144" y="-36.068" drill="1"/>
+<pad name="P$55" x="-138.684" y="-33.528" drill="1"/>
+<pad name="P$56" x="-136.144" y="-33.528" drill="1"/>
+<pad name="P$57" x="-138.684" y="-30.988" drill="1"/>
+<pad name="P$58" x="-136.144" y="-30.988" drill="1"/>
+<pad name="P$59" x="-138.684" y="-28.448" drill="1"/>
+<pad name="P$60" x="-136.144" y="-28.448" drill="1"/>
+<pad name="P$61" x="-138.684" y="-25.908" drill="1"/>
+<pad name="P$62" x="-136.144" y="-25.908" drill="1"/>
+<pad name="P$63" x="-138.684" y="-23.368" drill="1"/>
+<pad name="P$64" x="-136.144" y="-23.368" drill="1"/>
+<pad name="P$65" x="-138.684" y="-20.828" drill="1"/>
+<pad name="P$66" x="-136.144" y="-20.828" drill="1"/>
+<pad name="P$67" x="-138.684" y="-18.288" drill="1"/>
+<pad name="P$68" x="-136.144" y="-18.288" drill="1"/>
+<pad name="P$69" x="-138.684" y="-15.748" drill="1"/>
+<pad name="P$70" x="-136.144" y="-15.748" drill="1"/>
+<pad name="P$71" x="-138.684" y="-13.208" drill="1"/>
+<pad name="P$72" x="-136.144" y="-13.208" drill="1"/>
+<pad name="P$73" x="-138.684" y="-10.668" drill="1"/>
+<pad name="P$74" x="-136.144" y="-10.668" drill="1"/>
+<pad name="P$75" x="-138.684" y="-8.128" drill="1"/>
+<pad name="P$76" x="-136.144" y="-8.128" drill="1"/>
+<pad name="P$77" x="-138.684" y="-5.588" drill="1"/>
+<pad name="P$78" x="-136.144" y="-5.588" drill="1"/>
+<pad name="P$79" x="-138.684" y="-3.048" drill="1"/>
+<pad name="P$80" x="-136.144" y="-3.048" drill="1"/>
+<pad name="P$81" x="-138.684" y="-0.508" drill="1"/>
+<pad name="P$82" x="-136.144" y="-0.508" drill="1"/>
+<pad name="P$83" x="-138.684" y="2.032" drill="1"/>
+<pad name="P$84" x="-136.144" y="2.032" drill="1"/>
+<pad name="P$85" x="-138.684" y="4.572" drill="1"/>
+<pad name="P$86" x="-136.144" y="4.572" drill="1"/>
+<pad name="P$87" x="-138.684" y="7.112" drill="1"/>
+<pad name="P$88" x="-136.144" y="7.112" drill="1"/>
+<pad name="P$89" x="-138.684" y="9.652" drill="1"/>
+<pad name="P$90" x="-136.144" y="9.652" drill="1"/>
+<pad name="P$91" x="-138.684" y="12.192" drill="1"/>
+<pad name="P$92" x="-136.144" y="12.192" drill="1"/>
+<pad name="P$93" x="-138.684" y="14.732" drill="1"/>
+<pad name="P$94" x="-136.144" y="14.732" drill="1"/>
+<pad name="P$95" x="-138.684" y="17.272" drill="1"/>
+<pad name="P$96" x="-136.144" y="17.272" drill="1"/>
+<pad name="P$97" x="-138.684" y="19.812" drill="1"/>
+<pad name="P$98" x="-136.144" y="19.812" drill="1"/>
+<pad name="P$99" x="-138.684" y="22.352" drill="1"/>
+<pad name="P$100" x="-136.144" y="22.352" drill="1"/>
 </package>
 </packages>
 <symbols>
-<symbol name="POWER-BRICK-CONNECTOR">
+<symbol name="ESC-CONNECTOR">
 <pin name="P$1" x="12.7" y="7.62" length="middle" rot="R180"/>
 <pin name="P$2" x="12.7" y="-7.62" length="middle" rot="R180"/>
 <wire x1="-7.62" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
@@ -11357,15 +11407,15 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="POWER-BRICK-CONNECTOR">
+<deviceset name="ESC-CONNECTOR">
 <gates>
-<gate name="G$1" symbol="POWER-BRICK-CONNECTOR" x="0" y="0"/>
+<gate name="G$1" symbol="ESC-CONNECTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="POWER-BRICK-CONNECTOR">
+<device name="ESC-CONNECTOR" package="ESC-CONNECTOR">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20 P$21 P$22 P$23 P$24 P$25 P$26"/>
-<connect gate="G$1" pin="P$2" pad="P$27 P$28 P$29 P$30 P$31 P$32 P$33 P$34 P$35 P$36 P$37 P$38 P$39 P$40 P$41 P$42 P$43 P$44 P$45 P$46 P$47 P$48 P$49 P$50"/>
+<connect gate="G$1" pin="P$1" pad="P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20 P$21 P$22 P$23 P$24 P$25 P$26 P$27 P$28 P$29 P$30 P$31 P$32 P$33 P$34 P$35 P$36 P$37 P$38 P$39 P$40 P$41 P$42 P$43 P$44 P$45 P$46 P$47 P$48 P$49 P$50"/>
+<connect gate="G$1" pin="P$2" pad="P$51 P$52 P$53 P$54 P$55 P$56 P$57 P$58 P$59 P$60 P$61 P$62 P$63 P$64 P$65 P$66 P$67 P$68 P$69 P$70 P$71 P$72 P$73 P$74 P$75 P$76 P$77 P$78 P$79 P$80 P$81 P$82 P$83 P$84 P$85 P$86 P$87 P$88 P$89 P$90 P$91 P$92 P$93 P$94 P$95 P$96 P$97 P$98 P$99 P$100"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11663,8 +11713,6 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="C69" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="GND94" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND95" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U$17" library="MotherboardParts" deviceset="POWER-BRICK-CONNECTOR" device=""/>
-<part name="U$18" library="MotherboardParts" deviceset="POWER-BRICK-CONNECTOR" device=""/>
 <part name="U$16" library="MotherBoardParts2" deviceset="POWER_BRICK_CONNECTORS(2X6)" device=""/>
 <part name="GND" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME5" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
@@ -11759,6 +11807,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="GND70" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND71" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND72" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U$14" library="MotherboardParts" deviceset="ESC-CONNECTOR" device="ESC-CONNECTOR"/>
 </parts>
 <sheets>
 <sheet>
@@ -11995,14 +12044,12 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="C69" gate="G$1" x="-144.78" y="116.84" rot="R180"/>
 <instance part="GND94" gate="1" x="-157.48" y="106.68"/>
 <instance part="GND95" gate="1" x="-144.78" y="106.68"/>
-<instance part="U$17" gate="G$1" x="312.42" y="403.86"/>
-<instance part="U$18" gate="G$1" x="358.14" y="403.86"/>
 <instance part="U$16" gate="G$1" x="248.92" y="406.4"/>
 <instance part="GND" gate="1" x="220.98" y="403.86"/>
 <instance part="FRAME5" gate="G$1" x="185.42" y="246.38"/>
 <instance part="P+32" gate="1" x="274.32" y="419.1"/>
-<instance part="P+34" gate="1" x="378.46" y="421.64"/>
-<instance part="GND96" gate="1" x="332.74" y="388.62"/>
+<instance part="P+34" gate="1" x="434.34" y="398.78"/>
+<instance part="GND96" gate="1" x="434.34" y="408.94"/>
 <instance part="P1" gate="G$1" x="99.06" y="408.94" rot="MR0"/>
 <instance part="P2" gate="G$1" x="86.36" y="406.4" rot="MR0"/>
 <instance part="P3" gate="G$1" x="73.66" y="403.86" rot="MR0"/>
@@ -12092,6 +12139,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="GND70" gate="1" x="398.78" y="144.78"/>
 <instance part="GND71" gate="1" x="396.24" y="119.38"/>
 <instance part="GND72" gate="1" x="340.36" y="119.38"/>
+<instance part="U$14" gate="G$1" x="414.02" y="403.86"/>
 </instances>
 <busses>
 </busses>
@@ -12657,16 +12705,6 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="-144.78" y1="111.76" x2="-144.78" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$17" gate="G$1" pin="P$2"/>
-<pinref part="GND96" gate="1" pin="GND"/>
-<wire x1="325.12" y1="396.24" x2="332.74" y2="396.24" width="0.1524" layer="91"/>
-<wire x1="332.74" y1="396.24" x2="332.74" y2="391.16" width="0.1524" layer="91"/>
-<pinref part="U$17" gate="G$1" pin="P$1"/>
-<wire x1="325.12" y1="411.48" x2="332.74" y2="411.48" width="0.1524" layer="91"/>
-<wire x1="332.74" y1="411.48" x2="332.74" y2="396.24" width="0.1524" layer="91"/>
-<junction x="332.74" y="396.24"/>
-</segment>
-<segment>
 <pinref part="C70" gate="G$1" pin="2"/>
 <wire x1="241.3" y1="208.28" x2="241.3" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="GND99" gate="1" pin="GND"/>
@@ -12793,6 +12831,11 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="LED8" gate="G$1" pin="GND"/>
 <wire x1="396.24" y1="121.92" x2="396.24" y2="124.46" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$14" gate="G$1" pin="P$1"/>
+<wire x1="426.72" y1="411.48" x2="434.34" y2="411.48" width="0.1524" layer="91"/>
+<pinref part="GND96" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="+12V" class="0">
 <segment>
@@ -12808,16 +12851,6 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="C26" gate="G$1" pin="2"/>
 <wire x1="-7.62" y1="142.24" x2="-7.62" y2="144.78" width="0.1524" layer="91"/>
 <junction x="-7.62" y="144.78"/>
-</segment>
-<segment>
-<pinref part="P+34" gate="1" pin="+12V"/>
-<pinref part="U$18" gate="G$1" pin="P$1"/>
-<wire x1="370.84" y1="411.48" x2="378.46" y2="411.48" width="0.1524" layer="91"/>
-<wire x1="378.46" y1="411.48" x2="378.46" y2="419.1" width="0.1524" layer="91"/>
-<pinref part="U$18" gate="G$1" pin="P$2"/>
-<wire x1="370.84" y1="396.24" x2="378.46" y2="396.24" width="0.1524" layer="91"/>
-<wire x1="378.46" y1="396.24" x2="378.46" y2="411.48" width="0.1524" layer="91"/>
-<junction x="378.46" y="411.48"/>
 </segment>
 <segment>
 <pinref part="P+2" gate="1" pin="+12V"/>
@@ -12905,6 +12938,11 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="266.7" y1="408.94" x2="274.32" y2="408.94" width="0.1524" layer="91"/>
 <pinref part="P+32" gate="1" pin="+12V"/>
 <wire x1="274.32" y1="408.94" x2="274.32" y2="416.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$14" gate="G$1" pin="P$2"/>
+<wire x1="426.72" y1="396.24" x2="434.34" y2="396.24" width="0.1524" layer="91"/>
+<pinref part="P+34" gate="1" pin="+12V"/>
 </segment>
 </net>
 <net name="PWM2" class="0">
