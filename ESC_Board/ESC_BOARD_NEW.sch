@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19750,11 +19750,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-45.72" y1="304.8" x2="-33.02" y2="304.8" width="0.1524" layer="91"/>
 <label x="-40.64" y="304.8" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U$13" gate="G$1" pin="DIN"/>
-<wire x1="48.26" y1="304.8" x2="60.96" y2="304.8" width="0.1524" layer="91"/>
-<label x="53.34" y="304.8" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="MISO" class="0">
 <segment>
@@ -19766,11 +19761,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="U2" gate="U$1" pin="PB4(MISO)"/>
 <wire x1="137.16" y1="137.16" x2="149.86" y2="137.16" width="0.1524" layer="91"/>
 <label x="142.24" y="137.16" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$4" gate="G$1" pin="DOUT"/>
-<wire x1="-45.72" y1="307.34" x2="-33.02" y2="307.34" width="0.1524" layer="91"/>
-<label x="-40.64" y="307.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$13" gate="G$1" pin="DOUT"/>
@@ -20936,6 +20926,18 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="55.88" y1="396.24" x2="66.04" y2="396.24" width="0.1524" layer="91"/>
 <pinref part="P6" gate="G$1" pin="1"/>
 <label x="60.96" y="396.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TEMP1" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="DOUT"/>
+<wire x1="-45.72" y1="307.34" x2="-33.02" y2="307.34" width="0.1524" layer="91"/>
+<label x="-40.64" y="307.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$13" gate="G$1" pin="DIN"/>
+<wire x1="48.26" y1="304.8" x2="60.96" y2="304.8" width="0.1524" layer="91"/>
+<label x="53.34" y="304.8" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
